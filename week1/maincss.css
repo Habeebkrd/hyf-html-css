@@ -1,0 +1,49 @@
+body{
+        width:80%;
+        background-color: palegoldenrod;
+        margin:auto;
+
+}
+
+img{
+        width:150px;
+        height:180px;
+        border-radius: 60%;
+}
+.title{
+        color:white;
+        background-color: #333A44;
+        padding:15px;
+        margin-top:10px;
+        border-bottom: 5px solid orangered;
+
+}
+h1{
+        float:right;
+        margin-right: 270px;
+        
+}
+#cv{
+        float:right;
+        clear: both;
+        margin-right:270px;
+        font-weight:bold;
+        
+}
+.info{
+        background-color:darkseagreen;
+        width:30%;
+        padding:10px;
+        margin-right:50px;
+        float: left;
+        
+}
+.experience{
+            background-color: khaki;
+            padding: 20px;
+            
+                
+              
+                
+
+}
