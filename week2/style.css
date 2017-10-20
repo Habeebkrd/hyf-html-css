@@ -1,0 +1,449 @@
+body{
+        background-color: #DFF5AD;
+        width:96%;
+        margin:auto;
+}
+
+img{
+        max-width: 60%;
+        margin-left:3px;
+        display:block;
+}
+
+header{
+        background-image: url('https://petapixel.com/assets/uploads/2017/04/swelpro_feat.jpg');
+        background-repeat: no-repeat;
+        background-position-y: 40%;
+        background-position-x: 20%;
+        padding:1px;
+        color:#fff;
+        font-size:1.5rem;
+        font-style: italic;
+        text-align: center;
+        border-bottom:3px solid orangered;
+}
+
+main{
+        background:#fff;
+        display:grid;
+}
+
+h2{
+        background-color:#ECEFF1;
+        margin:auto;
+        padding:10px;
+        color:#FC6D0E;
+        font-size: 2rem;
+        font-style: italic;
+        display:block;
+}
+
+#grid-floats .grid-item h3{
+        color:#DA3005;
+}
+
+#grid-floats .grid-item p:hover{
+        color:orangered;
+}
+
+ul#grid-floats {
+        float: left;
+        list-style-type: none;
+        background-color: #fff;
+}
+
+#grid-floats li{
+        display:inline-block;
+        margin:0.5%;
+        color:#8A028A;
+}
+
+#grid-floats li:nth-child(1){
+        width:48%;
+}
+
+#grid-floats li:nth-child(2){
+        width:48%;
+}
+
+#grid-floats li:nth-child(3){
+        width:23%;
+}
+
+#grid-floats li:nth-child(4){
+        width:23%;
+}
+
+#grid-floats li:nth-child(5){
+        width:23%;
+}
+
+#grid-floats li:nth-child(6){
+        width:23%;
+}
+
+#grid-floats li:nth-child(7){
+        width:23%;
+}
+
+#grid-floats li:nth-child(8){
+        width:23%;
+}
+
+#grid-floats li:nth-child(9){
+        width:23%;
+}
+
+#grid-floats li:nth-child(10){
+        width:23%;
+}
+
+#grid-floats li:nth-child(11){
+        width:23%;
+}
+
+#grid-floats li:nth-child(12){
+        width:23%;
+}
+
+#grid-floats li:nth-child(13){
+        width:23%;
+}
+
+#grid-floats li:nth-child(14){
+        width:23%;
+}
+
+
+ul#grid-flex{
+        list-style-type:none;
+
+}
+#grid-flex li{
+        margin:0.5%;
+}
+#grid-flex{
+        display: -webkit-flex;
+        display:flex;
+        flex-wrap: wrap;  
+}
+#grid-flex li:nth-child(1){
+        width:48%;
+}
+#grid-flex li:nth-child(2){
+        width:48%;
+}
+#grid-flex li:nth-child(3){
+        width:23%;
+}
+#grid-flex li:nth-child(4){
+        width:23%;
+}
+#grid-flex li:nth-child(5){
+        width:23%;
+}
+#grid-flex li:nth-child(6){
+        width:23%;
+}
+#grid-flex li:nth-child(7){
+        width:23%;
+}
+#grid-flex li:nth-child(8){
+        width:23%;
+}
+#grid-flex li:nth-child(9){
+        width:23%;
+}
+#grid-flex li:nth-child(10){
+        width:23%;
+}
+#grid-flex li:nth-child(11){
+        width:23%;
+}
+#grid-flex li:nth-child(12){
+        width:23%;
+}
+#grid-flex li:nth-child(13){
+        width:23%;
+}
+#grid-flex li:nth-child(14){
+        width:23%;
+}
+#grid-flex .grid-item p:hover{
+        color:#0864E6;
+}
+#grid-flex h3{
+    color:crimson;
+}
+
+@media screen and (max-width:667px) and (min-width:320px){
+        header{
+                background-position-y: 40%;
+                background-position-x: 40%;
+        }
+        
+        ul#grid-floats {
+                float: left;
+                list-style-type: none;
+                background-color: #fff;
+        }
+        
+        #grid-floats li{
+                display:inline-block;
+                margin:0.5%;
+                color:#8A028A;
+        }
+        #grid-floats .grid-item p{
+                font-size:12px;
+        }
+        
+        #grid-floats li:nth-child(1){
+               width:100%;
+        }
+        
+        #grid-floats li:nth-child(2){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(3){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(4){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(5){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(6){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(7){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(8){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(9){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(10){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(11){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(12){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(13){
+                width:40%;
+        }
+        
+        #grid-floats li:nth-child(14){
+                width:40%;
+        }
+
+        ul#grid-flex{
+                list-style-type:none;
+        
+        }
+        #grid-flex li{
+                margin:0.5%;
+        }
+        #grid-flex{
+                display: -webkit-flex;
+                display:flex;
+                flex-wrap: wrap;  
+        }
+        #grid-flex li:nth-child(1){
+                width:100%;
+        }
+        #grid-flex li:nth-child(2){
+                width:40%;
+        }
+        #grid-flex li:nth-child(3){
+                width:40%;
+        }
+        #grid-flex li:nth-child(4){
+                width:40%;
+        }
+        #grid-flex li:nth-child(5){
+                width:40%;
+        }
+        #grid-flex li:nth-child(6){
+                width:40%;
+        }
+        #grid-flex li:nth-child(7){
+                width:40%;
+        }
+        #grid-flex li:nth-child(8){
+                width:40%;
+        }
+        #grid-flex li:nth-child(9){
+                width:40%;
+        }
+        #grid-flex li:nth-child(10){
+                width:40%;
+        }
+        #grid-flex li:nth-child(11){
+                width:40%;
+        }
+        #grid-flex li:nth-child(12){
+                width:40%;
+        }
+        #grid-flex li:nth-child(13){
+                width:40%;
+        }
+        #grid-flex li:nth-child(14){
+                width:40%;
+        }
+        #grid-flex .grid-item p{
+                font-size:12px;
+        }
+        
+}
+@media screen and (max-width:1024px) and (min-width:768px){
+        header{
+                background-position-y: 40%;
+                background-position-x: 40%;
+        }
+        ul#grid-floats {
+                float: left;
+                list-style-type: none;
+                background-color: #fff;
+        }
+        
+        #grid-floats li{
+                display:inline-block;
+                margin:0.5%;
+                color:#8A028A;
+        }
+        #grid-floats .grid-item p{
+                font-size:14px;
+        }
+        
+        #grid-floats li:nth-child(1){
+               width:48%;
+        }
+        
+        #grid-floats li:nth-child(2){
+                width:48%;
+        }
+        
+        #grid-floats li:nth-child(3){
+                width:31%;
+        }
+        
+        #grid-floats li:nth-child(4){
+                width:31%;
+        }
+        
+        #grid-floats li:nth-child(5){
+                width:31%;
+        }
+        
+        #grid-floats li:nth-child(6){
+                width:31%;
+        }
+        
+        #grid-floats li:nth-child(7){
+                width:31%;
+        }
+        
+        #grid-floats li:nth-child(8){
+                width:31%;
+        }
+        
+        #grid-floats li:nth-child(9){
+                width:31%;
+        }
+        
+        #grid-floats li:nth-child(10){
+                width:31%;
+        }
+        
+        #grid-floats li:nth-child(11){
+                width:31%;
+        }
+        
+        #grid-floats li:nth-child(12){
+                width:31%;
+        }
+        
+        #grid-floats li:nth-child(13){
+                width:31%;
+        }
+        
+        #grid-floats li:nth-child(14){
+                width:31%;
+        }
+
+        ul#grid-flex{
+                list-style-type:none;
+        
+        }
+        #grid-flex li{
+                margin:0.5%;
+        }
+        #grid-flex{
+                display: -webkit-flex;
+                display:flex;
+                flex-wrap: wrap;  
+        }
+        #grid-flex li:nth-child(1){
+                width:48%;
+        }
+        #grid-flex li:nth-child(2){
+                width:48%;
+        }
+        #grid-flex li:nth-child(3){
+                width:31%;
+        }
+        #grid-flex li:nth-child(4){
+                width:31%;
+        }
+        #grid-flex li:nth-child(5){
+                width:31%;
+        }
+        #grid-flex li:nth-child(6){
+                width:31%;
+        }
+        #grid-flex li:nth-child(7){
+                width:31%;
+        }
+        #grid-flex li:nth-child(8){
+                width:31%;
+        }
+        #grid-flex li:nth-child(9){
+                width:31%;
+        }
+        #grid-flex li:nth-child(10){
+                width:31%;
+        }
+        #grid-flex li:nth-child(11){
+                width:31%;
+        }
+        #grid-flex li:nth-child(12){
+                width:31%;
+        }
+        #grid-flex li:nth-child(13){
+                width:31%;
+        }
+        #grid-flex li:nth-child(14){
+                width:31%;
+        }
+        #grid-flex .grid-item p{
+                font-size:14px;
+        }
+        
+}
